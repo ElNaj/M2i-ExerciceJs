@@ -3,7 +3,12 @@
 
 let read = require("readline-sync");
 
-let prix1 = read.questionInt("Veuillez saisir le prix de fabrication : " );
-let prix2 = read.questionInt("Veuillez saisir le prix de vente : " );
+let prix1 = read.questionFloat("Veuillez saisir le prix de fabrication : " );
+let prix2 = read.questionFloat("Veuillez saisir le prix de vente : " );
 
 // Si le prix de fabrication > prix de vente il y a perte sinon profit 
+if (prix1 > prix2) {
+    console.log(`Perte de ${prix1 - prix2}€`);
+} else {
+    console.log(`Profit de ${prix2 - prix1}€`);
+}
