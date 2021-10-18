@@ -8,4 +8,5 @@ let saisiUser3 = read.questionInt("Saisir un dernier nombre : " );
 
 let saisis = [saisiUser1, saisiUser2, saisiUser3]; 
 let valeurMax = Math.max(...saisis);
+
 console.log(valeurMax);
