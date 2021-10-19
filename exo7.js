@@ -8,8 +8,15 @@ console.log(`Vous avez saisi : ${nombre}`);
 
 let somme = 0;
 let i = 1;
+let result ="";
+
 while (i <= nombre) {
-    somme = somme + i;
+    somme += i;
+    if (i === nombre) {
+        result += i + " = ";
+    } else {
+        result += i + "+";
+    }
     i++;
 }
-console.log(`Somme de 1 à N vaut : ${somme}`);
+console.log(`${result} ${somme}`);
