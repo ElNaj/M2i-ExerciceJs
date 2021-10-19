@@ -5,8 +5,6 @@
 let read = require("readline-sync");
 let nombre = read.questionInt("Saisir un nombre : " );
 
-;
-
 for (let i = 0; i < nombre; i++) {
     let etoile = "";
     for (let j = 1; j < nombre - i; j++) {

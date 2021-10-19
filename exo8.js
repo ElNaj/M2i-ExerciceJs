@@ -3,6 +3,7 @@
 
 let read = require("readline-sync");
 let nombre = read.questionInt("Saisir un nombre : " );
+
 console.log(`Votre esacalier aura ${nombre} lignes`);
 
 let etiole = "";
