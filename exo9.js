@@ -2,10 +2,9 @@
 // génére une drôle de pyramide, adaptation exo8 pour faire descendre l'escalier
 
 let read = require("readline-sync");
-let nombre = read.questionFloat("Saisir un nombre : " );
+let nombre = read.questionInt("Saisir un nombre : " );
 
 let etoile = "";
-
 
 for (let i = 1; i <= nombre; i++) {
         etoile += "*";

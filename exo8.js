@@ -2,7 +2,8 @@
 // génére un escalier d'étoiles
 
 let read = require("readline-sync");
-let nombre = read.questionFloat("Saisir un nombre : " );
+let nombre = read.questionInt("Saisir un nombre : " );
+
 console.log(`Votre esacalier aura ${nombre} lignes`);
 
 let etiole = "";

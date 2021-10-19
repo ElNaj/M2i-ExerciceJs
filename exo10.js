@@ -3,9 +3,7 @@
 
 
 let read = require("readline-sync");
-let nombre = read.questionFloat("Saisir un nombre : " );
-
-;
+let nombre = read.questionInt("Saisir un nombre : " );
 
 for (let i = 0; i < nombre; i++) {
     let etoile = "";
